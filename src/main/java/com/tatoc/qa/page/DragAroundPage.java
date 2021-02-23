@@ -45,6 +45,9 @@ public class DragAroundPage  {
 		driver.findElement(By.xpath("//a[@onclick='gonext();']")).click();
 		String actual = driver.getTitle();
 		String expected ="Windows - Basic Course - T.A.T.O.C";
-		Assert.assertEquals(actual, expected);
-		}
+		Assert.assertEquals(actual, expected);}
+	
+	
+	
+	
 }

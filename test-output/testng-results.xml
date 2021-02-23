@@ -2,44 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13507" started-at="2020-11-27T20:08:45 IST" finished-at="2020-11-27T20:08:59 IST">
+  <suite name="Suite" duration-ms="11707" started-at="2021-02-23T21:08:01 IST" finished-at="2021-02-23T21:08:13 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13507" started-at="2020-11-27T20:08:45 IST" finished-at="2020-11-27T20:08:59 IST">
-      <class name="com.tatoc.qa.testcases.AllTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.tatoc.qa.testcases.AllTest@303cf2ba]" name="setup" is-config="true" duration-ms="3286" started-at="2020-11-27T20:08:45 IST" finished-at="2020-11-27T20:08:48 IST">
+    <test name="Test" duration-ms="11707" started-at="2021-02-23T21:08:01 IST" finished-at="2021-02-23T21:08:13 IST">
+      <class name="com.tatoc.qa.testcases.TatocTestCases">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.tatoc.qa.testcases.TatocTestCases@31add175]" name="setup" is-config="true" duration-ms="2584" started-at="2021-02-23T21:08:01 IST" finished-at="2021-02-23T21:08:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="welcomePageTitleTest()[pri:0, instance:com.tatoc.qa.testcases.AllTest@303cf2ba]" name="welcomePageTitleTest" duration-ms="663" started-at="2020-11-27T20:08:48 IST" finished-at="2020-11-27T20:08:49 IST">
+        <test-method status="PASS" signature="welcomePageTitleTest()[pri:0, instance:com.tatoc.qa.testcases.TatocTestCases@31add175]" name="welcomePageTitleTest" duration-ms="1251" started-at="2021-02-23T21:08:04 IST" finished-at="2021-02-23T21:08:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- welcomePageTitleTest -->
-        <test-method status="PASS" signature="clickOnRedBox()[pri:1, instance:com.tatoc.qa.testcases.AllTest@303cf2ba]" name="clickOnRedBox" duration-ms="355" started-at="2020-11-27T20:08:49 IST" finished-at="2020-11-27T20:08:49 IST">
+        <test-method status="PASS" signature="clickOnRedBox()[pri:1, instance:com.tatoc.qa.testcases.TatocTestCases@31add175]" name="clickOnRedBox" duration-ms="362" started-at="2021-02-23T21:08:06 IST" finished-at="2021-02-23T21:08:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnRedBox -->
-        <test-method status="PASS" signature="clickOnGreenBox()[pri:2, instance:com.tatoc.qa.testcases.AllTest@303cf2ba]" name="clickOnGreenBox" duration-ms="828" started-at="2020-11-27T20:08:49 IST" finished-at="2020-11-27T20:08:50 IST">
+        <test-method status="PASS" signature="clickOnGreenBox()[pri:2, instance:com.tatoc.qa.testcases.TatocTestCases@31add175]" name="clickOnGreenBox" duration-ms="690" started-at="2021-02-23T21:08:06 IST" finished-at="2021-02-23T21:08:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnGreenBox -->
-        <test-method status="PASS" signature="checkReprintAndProceedLink()[pri:3, instance:com.tatoc.qa.testcases.AllTest@303cf2ba]" name="checkReprintAndProceedLink" duration-ms="3819" started-at="2020-11-27T20:08:50 IST" finished-at="2020-11-27T20:08:54 IST">
+        <test-method status="PASS" signature="checkReprintAndProceedLink()[pri:3, instance:com.tatoc.qa.testcases.TatocTestCases@31add175]" name="checkReprintAndProceedLink" duration-ms="2922" started-at="2021-02-23T21:08:07 IST" finished-at="2021-02-23T21:08:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkReprintAndProceedLink -->
-        <test-method status="PASS" signature="dragAroungProceedLink()[pri:4, instance:com.tatoc.qa.testcases.AllTest@303cf2ba]" name="dragAroungProceedLink" duration-ms="614" started-at="2020-11-27T20:08:54 IST" finished-at="2020-11-27T20:08:55 IST">
+        <test-method status="PASS" signature="dragAroungProceedLink()[pri:4, instance:com.tatoc.qa.testcases.TatocTestCases@31add175]" name="dragAroungProceedLink" duration-ms="663" started-at="2021-02-23T21:08:10 IST" finished-at="2021-02-23T21:08:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dragAroungProceedLink -->
-        <test-method status="PASS" signature="launchPopUpWindow()[pri:5, instance:com.tatoc.qa.testcases.AllTest@303cf2ba]" name="launchPopUpWindow" duration-ms="2999" started-at="2020-11-27T20:08:55 IST" finished-at="2020-11-27T20:08:58 IST">
+        <test-method status="PASS" signature="launchPopUpWindow()[pri:5, instance:com.tatoc.qa.testcases.TatocTestCases@31add175]" name="launchPopUpWindow" duration-ms="1327" started-at="2021-02-23T21:08:10 IST" finished-at="2021-02-23T21:08:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchPopUpWindow -->
-        <test-method status="PASS" signature="generateCookieToken()[pri:6, instance:com.tatoc.qa.testcases.AllTest@303cf2ba]" name="generateCookieToken" duration-ms="821" started-at="2020-11-27T20:08:58 IST" finished-at="2020-11-27T20:08:59 IST">
+        <test-method status="PASS" signature="generateCookieToken()[pri:6, instance:com.tatoc.qa.testcases.TatocTestCases@31add175]" name="generateCookieToken" duration-ms="855" started-at="2021-02-23T21:08:12 IST" finished-at="2021-02-23T21:08:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- generateCookieToken -->
-      </class> <!-- com.tatoc.qa.testcases.AllTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tatoc.qa.testcases.TatocTestCases@31add175]" name="tearDown" is-config="true" duration-ms="662" started-at="2021-02-23T21:08:12 IST" finished-at="2021-02-23T21:08:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tatoc.qa.testcases.TatocTestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
